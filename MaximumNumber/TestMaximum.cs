@@ -8,8 +8,9 @@ namespace MaximumNumber
 {
     public class TestMaximum
     {
-        public double MaximumNumber(double firstnumber ,double secondnumber, double thirdnumber)
+        public String MaximumNumber(string firstnumber ,string secondnumber, string thirdnumber)
         {
+
             if (firstnumber.CompareTo(secondnumber) > 0 && firstnumber.CompareTo(thirdnumber) > 0) return firstnumber;
             if (secondnumber.CompareTo(firstnumber) > 0 && secondnumber.CompareTo(thirdnumber) > 0) return secondnumber;
             else
