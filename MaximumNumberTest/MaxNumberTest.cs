@@ -12,7 +12,7 @@ namespace MaximumNumberTest
         {
             TestMaximum testMaximum = new TestMaximum();
             
-            Assert.AreEqual(8,testMaximum.MaximumNumber(8,6,3));
+            Assert.AreEqual(8,testMaximum.MaximumNumber(6,8,3));
         }
 
 
