@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace MaximumNumber
 {
-    public class TestMaximum
+    public class TestMaximum<T> where T:IComparable
     {
-        public String MaximumNumber(string firstnumber ,string secondnumber, string thirdnumber)
+
+        public   T MaximumNumber( T firstnumber ,T secondnumber, T thirdnumber)
         {
 
             if (firstnumber.CompareTo(secondnumber) > 0 && firstnumber.CompareTo(thirdnumber) > 0) return firstnumber;
@@ -17,5 +18,6 @@ namespace MaximumNumber
                 return thirdnumber;
 
         }
+
     }
 }

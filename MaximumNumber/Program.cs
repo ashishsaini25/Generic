@@ -10,8 +10,7 @@ namespace MaximumNumber
     {
         static void Main(string[] args)
         {
-            TestMaximum testMaximum = new TestMaximum();
-            Console.Write(testMaximum.MaximumNumber("Apple", "Banana", "Peach"));
+           
         }
     }
 }
