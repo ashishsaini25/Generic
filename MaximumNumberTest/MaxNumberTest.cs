@@ -14,15 +14,15 @@ namespace MaximumNumberTest
         public void GivenIntegerValue_WhenCheck_ReturnMaxNum()
         {
             
-            int max =testmaximumint.MaximumNumber(1, 2, 3);
+            int max =testmaximumint.MaximumNumber(1, 2, 3,4);
 
-            Assert.AreEqual(3, max);
+            Assert.AreEqual(4, max);
         }
         [Test]
         public void GivenStringValue_WhenCheck_ReturnMaxString()
         {
             
-            string max = testmaximumstring.MaximumNumber("Apple", "Banana", "Peach");
+            string max = testmaximumstring.MaximumNumber("Apple", "Banana", "Peach","Mango");
 
             Assert.AreEqual("Peach", max);
         }
